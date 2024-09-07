@@ -28,7 +28,7 @@ const Header = () => {
                         <a className="mr-5 hover:text-gray-900">Electronics</a>
                         <a className="mr-5 hover:text-gray-900">Jewellary</a>
                     </nav>
-                    <button className="rounded-xl inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                    <button className="rounded-md inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
                         Logout
                         <svg
                             fill="none"
