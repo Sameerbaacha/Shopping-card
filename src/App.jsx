@@ -15,7 +15,7 @@ function App() {
   }, [])
 
   return (
-    <div style={{backgroundColor:'lightgray', borderRadius:'39px'}}>
+    <div>
       <div>
         <Header />
       </div>
@@ -24,7 +24,7 @@ function App() {
           const { title, category, id, description, image, price, rating } = product;
           return (
             <div key={id}>
-              <section className="text-gray-600 body-font overflow-hidden">
+              <section className="text-gray-600 body-font ">
                 <div className="container px-5 py-24 mx-auto" bis_skin_checked={1}>
                   <div className="lg:w-4/5 mx-auto flex flex-wrap" bis_skin_checked={1}>
                     <img
@@ -154,26 +154,11 @@ function App() {
                           <button className="border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none" />
                         </div>
                         <div className="flex ml-6 items-center" bis_skin_checked={1}>
-                          <span className="mr-3">Size</span>
                           <div className="relative" bis_skin_checked={1}>
-                            <select className="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10">
-                              <option>SM</option>
-                              <option>M</option>
-                              <option>L</option>
-                              <option>XL</option>
-                            </select>
                             <span className="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
-                              <svg
-                                fill="none"
-                                stroke="currentColor"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                className="w-4 h-4"
-                                viewBox="0 0 24 24"
-                              >
-                                <path d="M6 9l6 6 6-6" />
-                              </svg>
+
+                              <path d="M6 9l6 6 6-6" />
+
                             </span>
                           </div>
                         </div>
